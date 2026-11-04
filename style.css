@@ -1,1 +1,31 @@
+h1 {
+  font-size: 2em;
+  padding: 25px;
+  font-family: Georgia;
+  text-align: center;
+  background-color: rgb(88, 229, 245);
+}
 
+.containers {
+  border: 1px red dotted;
+  width: auto;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+
+
+}
+.unit {
+  background-color: rgb(232, 232, 232);
+  color: black;
+  border-radius: 5px;
+  border: 1px blue dotted;
+  margin: 5px;
+  text-align: center;
+  
+}
+
+.unit:hover {
+  background-color: gray;
+
+}
