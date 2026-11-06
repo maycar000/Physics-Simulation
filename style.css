@@ -1,31 +1,42 @@
+body {
+  background-color: rgb(184, 219, 227);
+}
 h1 {
   font-size: 2em;
   padding: 25px;
   font-family: Georgia;
   text-align: center;
-  background-color: rgb(88, 229, 245);
+  background-color: rgb(144, 201, 214);
 }
 
 .containers {
   border: 1px red dotted;
   width: auto;
-  height: 600px;
+  height: 200px;
   display: grid;
   grid-template-columns: repeat(3,auto);
+  background-color: blue;
 
 
 }
 .unit {
-  background-color: rgb(232, 232, 232);
+  display: flex;
+  background-color: rgb(200, 222, 227);
   color: black;
   border-radius: 5px;
   border: 1px blue dotted;
   margin: 5px;
-  text-align: center;
-  
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-height: 500px;
+  transition-property: background-color;
+  transition-duration: 400ms;
+  transition-timing-function: linear;
+
 }
 
 .unit:hover {
-  background-color: gray;
+  background-color: rgb(132, 182, 194);
 
 }
