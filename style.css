@@ -1,5 +1,8 @@
 body {
   background-color: rgb(184, 219, 227);
+  border: 3px green solid;
+  padding: 0;
+  margin: 0;
 }
 h1 {
   font-size: 2em;
@@ -7,14 +10,13 @@ h1 {
   font-family: Georgia;
   text-align: center;
   background-color: rgb(144, 201, 214);
+  border: 3px red solid;
 }
 
 .containers {
   border: 1px red dotted;
-  width: auto;
-  height: 200px;
   display: grid;
-  grid-template-columns: repeat(3,auto);
+  grid-template-columns: repeat(1,auto);
   background-color: blue;
 
 
@@ -67,9 +69,5 @@ h1 {
     background-color: rgb(132, 182, 194);
 }
 
-.menu {
-  position: absolute;
-  display: none;
-  inset: 100% auto auto 0;
-  transition: opacity 0.3s ease-in;
-}
+
+
